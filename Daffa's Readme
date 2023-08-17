@@ -1,0 +1,8 @@
+Architecture Principle:
+- Separation of Concerns
+
+Dependencies:
+- echo    -> Golang Framework
+- jwt-go  -> For Authentication
+- viper   -> For Environment
+- logrus  -> For Logging

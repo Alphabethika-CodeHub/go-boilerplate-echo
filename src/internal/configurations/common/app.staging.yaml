@@ -1,0 +1,38 @@
+service_name: "go-boilerplate-echo"
+
+server:
+  port: "3400"
+
+common:
+  version: "1.0"
+  environment: "STAGING"
+  initial_message: "Service Ready"
+
+
+database:
+  mongo:
+    url: "mongodb://root:1234@localhost:27017/mydb"
+    name: "go-mongo-boilerplate"
+  postgres:
+    host: "localhost"
+    port: "5432"
+    name: "mydb" 
+    username: "postgres"
+    password: "postgres"
+  mysql:
+    host: "localhost"
+    port: "5432"
+    name: "mydb" 
+    username: "root"
+    password: "1234"
+  redis:
+    host: "localhost"
+    port: "6379"
+    password: ""
+    db: 0
+
+provider:
+  mailtrap:
+    send_url: ""
+    username: ""
+    password: ""
